@@ -80,14 +80,7 @@ export default function NewStore(){
     
     return (
         <PageWrapper>
-            <div className="min-h-[120px]">
-                {username && (
-                    <PageHeader
-                        title={`${username}'s Dashboard`}
-                        subtitle="Manage your stores with just one click"
-                    />
-                )}
-            </div>
+            
             <div className="relative z-10 flex justify-center px-4">
                 <Card
                     className="w-full max-w-2xl rounded-2xl border border-purple-500/30 bg-white/5 text-white backdrop-blur-md shadow-[0_0_20px_rgba(168,85,247,0.15)]">
